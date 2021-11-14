@@ -112,8 +112,8 @@ icon = <FiGithub />,
 modalImg= ph1,
 title = 'Project Name',
   desc = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid nam, necessitatibus numquam, tempore voluptate facilis minima est iste soluta ex ipsum impedit vero suscipit veniam mollitia. . ',
-  github = "https://github.com/Lara-Ziyad/Emoji-Tale",
-  tech=""
+  github = "Project Link",
+  tech="Project Link"
     
     })
 {
@@ -168,7 +168,7 @@ title = 'Project Name',
                 
                 
                 <div className="icon">
-                              <a href={github} target="_blank" rel="noopener noreferrer">
+                              <a href={link } target="_blank" rel="noopener noreferrer">
                                   {icon}                                  
                               </a>Codes
                        </div>

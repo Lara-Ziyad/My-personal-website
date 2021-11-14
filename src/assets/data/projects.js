@@ -20,7 +20,7 @@ const projects = [
     desc:
       'As a graduate project, Four students and I have used Agiles project managment to create a  Social platform for writers to write short stories inspired by five random updatable emojis. It is a central place for writers to show their writings and fellow other writers and readers to read, like, and comment on their stories.',
     img: EmojiCover ,
-    github: 'https://github.com/Lara-Ziyad/Emoji-Tale',
+    link : 'https://github.com/Lara-Ziyad/Emoji-Tale',
     tech: "Full stack MERN social platform with React hooks, context for State Mangment, Sass and Material UI for design, build an API & JWT authentication",
     modalImg:EmojiImg,
   },
@@ -29,7 +29,7 @@ const projects = [
     name: 'Lara Kamper',
     desc: "A clean design with full responsiveness for my personal portfolio.",
     img: LaraCover,
-    github: 'https://greenctg.com/',
+    link : 'https://github.com/Lara-Ziyad/My-personal-website',
     tech: "React hooks responsive website, designed with Styled Components, used React Icons and Swiper js for interactive UI",
     modalImg:LaraModal,
   },
@@ -40,7 +40,7 @@ const projects = [
     desc:
       'An application to track team members -tasks and issues- with the ability to highlight the tasks or problems that need attention and add more members to the team.',
     img: CoinTrackerImg,
-    github: 'https://github.com/Lara-Ziyad/Team-Work-App',
+    link : 'https://github.com/Lara-Ziyad/Team-Work-App',
     tech: "React hooks uses Redux for state management, JSON-Server as a mock backend and MaterializeCSS for design ",
     modalImg:TeamModal,
   },
@@ -52,6 +52,7 @@ const projects = [
     desc:
       'Sharpen my skills by building several quick, unique & fun mini projects',
     img: JavaCover,
+    link :'https://github.com/Lara-Ziyad/JavaScript-jQuey-Mini-Projects',
     tech: "HTML, CSS & JavaScript that relate to the DOM (Document Object Model)",
     modalImg:JavaModal,
   },
@@ -61,7 +62,7 @@ const projects = [
     desc: '3 Simple games created using JavaScript, tow of them were directed by Jonas Schmedtmann during the Udemy JavaScript course I completed.',
     img: GameCover,
     tech: "Html file designed with CSS, and JavaScript for functionality  ",
-    link: 'https://greenctg.com/',
+    github: 'https://github.com/Lara-Ziyad/Games',
     modalImg:GameModal,
   },
   {
@@ -70,7 +71,7 @@ const projects = [
     desc: 'An Application to save the contacts information, which includes the name, telephone number, email, and the type of the contacts. All data are editable, and All contact endpoints are protected, and each registered user has their contacts. Brad Treversy directed the application functionality during the Udemy React course I completed, and I created my own style.',
     img: GameCover,
     tech: "Full stack MERN contact application with React hooks, context for State Mangment, CSS for design, build an API & JWT authentication ",
-    link: '',
+    github: 'https://github.com/Lara-Ziyad/Contact-App',
     modalImg:GameModal,
   },
 ];
