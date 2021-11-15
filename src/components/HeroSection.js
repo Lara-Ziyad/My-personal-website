@@ -1,10 +1,10 @@
 import React from 'react';
-// import { FaGithub } from 'react-icons/fa';
+
 import styled from 'styled-components';
 import HeroImg from '../assets/images/newone.png';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
-// import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
+
 
 
 
@@ -18,28 +18,26 @@ const HeroStyles = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
-    /* margin-top: 3rem; */
+  
   }
   
   .container {
     height: 500px;
-    /* min-height: 1000px; */
+  
     width: 100%;
-    /* margin-top: 10rem; */
+ 
     
   }
   .start {
     height: 500px;
-  
-    /* grid-template-columns: flex
-    grid-align-content: start; */
+
     position: relative;
-    /* transform: translatex(-50%); */
+
   }
   .hero__heading {
     margin-top: 8rem;
     margin-right: 58rem;
-    /* font-size: 5rem; */
+  
     margin-bottom: 1rem;
      position: absolute;
      top:2rem; 
@@ -49,7 +47,7 @@ const HeroStyles = styled.div`
     span {
       display: inline-block;
       width: 100%;
-      /* font-size: 2rem; */
+    
       
     }}
     .hello{font-size: 2.6rem;
@@ -82,11 +80,8 @@ const HeroStyles = styled.div`
 }
  
   .hero__img {
-    /* max-width: 100%; */
-    width: 30%
-;
+    width: 30%;
     height:90%;
-    /* Object- fit: fill; */
     margin: 0 auto;
     position: absolute;
     left: 49%;
@@ -153,7 +148,6 @@ const HeroStyles = styled.div`
       
     }
     .hero__img {
-    /* max-width: 100%; */
     width: 60%;
     height:70%;
     position: absolute;
@@ -182,7 +176,7 @@ const HeroStyles = styled.div`
     .hero__heading {
     margin-top: 5rem;
     margin-right: 58rem;
-    /* font-size: 5rem; */
+
     margin-bottom: 1rem;
      position: absolute;
      top: 1.9rem; 
@@ -292,7 +286,6 @@ const HeroStyles = styled.div`
       
     }
     .hero__img {
-    /* max-width: 100%; */
     width: 60%;
     height:50%;
    

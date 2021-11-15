@@ -28,12 +28,8 @@ const ContactBannerStyles = styled.div`
     font-size: 4rem;
     margin-bottom: 2rem;
     color: var(--darkblue);
-    /* font-family: 'Montserrat SemiBold';
-    color : var(--terc); */
   }
-  /* .button {
-    color: var(--purple);
-  } */
+
   .button-wrapper {
 
     font-size: 2rem;
@@ -43,7 +39,7 @@ const ContactBannerStyles = styled.div`
     border-radius: 8px;
     display: inline-block;
    
-    /* margin-right: 1rem; */
+  
   }
   .button{ color: var(--offwhite);}
   @media only screen and (max-width: 768px) {

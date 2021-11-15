@@ -5,9 +5,10 @@ const SectionTitleStyle = styled.div`
   /* text-align: ${(props) => (props.outline ? 'start' : 'center')}; */
   margin-left: ${(props) => (props.outline ? '-8rem' : null)};
   padding-top: ${(props) => (props.outline ? '4rem' : null)};
-  background-color: ${(props) => (props.outline ? 'var(--darkoffwhite)' : '')};
+  background-color: ${(props) => (props.outline ? '' : '')};
   /* margin:0px; */
-  /* width: 150%; */
+  /* width: 150%;
+padding-bottom:2rem; */
  width:${(props) => (props.outline ? '900px;' : null)};
 
  

@@ -13,7 +13,7 @@ import {FiGithub} from 'react-icons/fi';
 import {FaProjectDiagram} from 'react-icons/fa';
 
 const AboutPageStyles = styled.div`
-  padding: 15rem 0rem 0rem 0rem;
+  padding: 13rem 0rem 0rem 0rem;
   margin: 0 auto;
 max-width: 100%;
 overflow: hidden;
@@ -37,7 +37,7 @@ display: flex;
     align-items: center;
     justify-content: center;
     gap: 5rem;
-    /* height: 100rem; */
+ 
     width:100%
     
   }
@@ -48,14 +48,11 @@ display: flex;
     display:flex;
       flex-direction:row;
       padding:3rem 0;
-      /* justify-content:space-between */
- /* margin-left:35rem; */
+     
    
   }
   .about__subheading {
-    /* position:absolute;
-    left: 13%;
-     top: 12%;  */
+   
     font-size: 2rem;
     margin-bottom: 2rem;
     
@@ -139,7 +136,7 @@ display: flex;
   .about__info__heading {
     font-size: 3rem;
     text-transform: uppercase;
-    /* background-color: var(--terc); */
+   
     border-radius: 4px;
     color: var(--offWhite);
     padding: .5rem 1rem .5rem 7rem;
@@ -182,16 +179,7 @@ display: flex;
  /////////////////////////////////////////////////////////////////////////////////
 
  @media only screen and (max-width: 550px) {
- /* .about__info__items {
-    width: 100%;
-    margin-top: 10rem;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 4rem;
-    grid-auto-rows: minmax(100px, auto);
-    /* position: absolute;
-    left: 0%; 
-  } */
+
   .about__info__heading {
       
       margin-left:0rem;
@@ -217,7 +205,7 @@ export default function About() {
   const createPdf = () => {
     const doc = new jsPDF('portrait', 'px', 'a6', 'false');
     doc.addImage(Lara, 'jpg', 0, 0, 210, 297);
-    doc.save('Lara.pdf')
+    doc.save('Lara-Kamper-Resume.pdf')
 
       }
    
@@ -236,7 +224,7 @@ export default function About() {
              
               <div className="about__info">
               <br />
-                <p>A Palestinian Web developer, Designer, and Architect based in Germany since 2017. My evident passion for creating and designing stuff with a unique point of view has been prominent since my early childhood. <br/>After years of working as an architect, artist, and graphic designer, in 2021, I decided to learn Web development while I found out coding is a fantastic combination of creating and design; it is a kind of art.  I love it while I have the opportunity to develop along with the design, and I enjoy the process a lot.
+                <p>A Palestinian Web Developer, Designer, and Architect based in Germany since 2017. My evident passion for creating and designing stuff with a unique point of view has been prominent since my early childhood. <br/>After years of working as an Architect, Artist, and Graphic Designer, in 2021, I decided to learn Web Development while I found out coding is a fantastic combination of creating and design; it is a kind of art.  I love it while I have the opportunity to develop along with the design, and I enjoy the process a lot.
                   <br /> <br />
                   I specialized in JavaScript technologies across the MERN stack (MongoDB, Express, React, Node.js), besides a solid background in design technology, including frameworks and libraries such as React Native,  jQuery, material UI, Bootstrap, and outstanding knowledge in using Css3, HTML5, Sass, in addition Adobe Creative Cloud (Photoshop, Illustrator, Indesign, After Effect).
                   <br />

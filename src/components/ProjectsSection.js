@@ -88,7 +88,7 @@ export default function ProjectsSection() {
 
           
           <Swiper
-            spaceBetween={10}
+            spaceBetween={20}
             slidesPerView={1}
             navigation
             breakpoints={{
@@ -101,13 +101,13 @@ export default function ProjectsSection() {
                 slidesPerView: 2,
               },
               // when window width is >= 1200px
-              1000: {
+              1200: {
                 slidesPerView: 3,
               },
             }}
           >
             {projects.map((project, index) => {
-              if (index >= 5) return null;
+              if (index >= 6) return null;
               return (
                 <SwiperSlide key={project.id}>
                   <ProjectItem

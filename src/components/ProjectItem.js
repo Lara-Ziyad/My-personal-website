@@ -1,7 +1,7 @@
 import React, { useState }  from 'react';
 // import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import ProjectImg from '../assets/images/projectImg.png';
+
 
 const ProjectItemStyles = styled.div`
   display: flex;
@@ -37,14 +37,14 @@ const ProjectItemStyles = styled.div`
     font-size: 2.8rem;
     color: var(--offwhite);
     padding-top:1rem;
-    /* text-align: center; */
+ 
   }
   div > a{
     color: var(--darkoffwhite);
     font-size: 2rem;
-   /* margin-left: 13rem; */
+
    padding-top: .5rem;
-    /* text-align: center; */
+
     cursor:pointer;
     
   }
@@ -69,7 +69,7 @@ const ProjectItemStyles = styled.div`
 
 export default function ProjectItem({
   link = 'Project Link',
-  img = ProjectImg,
+  img = '',
   title = 'Project Name',
   buttom = 'Click to see more',
   click = () => { },

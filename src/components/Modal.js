@@ -3,7 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
 import { FiGithub } from 'react-icons/fi';
-import DocItem from './DocumentsItem';
+
 import ph1 from '../assets/images/projects/emoji/1.png';
 
 const Background = styled.div`
@@ -14,6 +14,7 @@ const Background = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000 !important;
 `;
 
 const ModalWrapper = styled.div`
@@ -21,11 +22,11 @@ const ModalWrapper = styled.div`
   height: 700px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
-  color: #000;
+  /* color: #000; */
   display: grid;
   grid-template-columns: 2.2fr 1fr;
   position: relative;
-  z-index: 10;
+  
   border-radius: 10px;
   background-image: linear-gradient(to bottom left,var(--dark-bg), var(--dark-bg2));
 `;
@@ -107,13 +108,13 @@ const CloseModalButton = styled(MdClose)`
   color: #fff;
 `;
 
-export default function Modal({ showModal, setShowModal, link = 'Project Link',
+export default function Modal({ showModal, setShowModal,
 icon = <FiGithub />,
 modalImg= ph1,
 title = 'Project Name',
   desc = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid nam, necessitatibus numquam, tempore voluptate facilis minima est iste soluta ex ipsum impedit vero suscipit veniam mollitia. . ',
-  github = "Project Link",
-  tech="Project Link"
+  github = "",
+  tech=""
     
     })
 {
@@ -124,7 +125,7 @@ title = 'Project Name',
       duration: 200
     },
     opacity: showModal ? 1: 0,
-    transform: showModal ? `translateY(5%)` : `translateY(-100%)`
+    transform: showModal ? `translateY(-10%)` : `translateY(-100%)`
   });
 
   const closeModal = e => {
@@ -168,7 +169,7 @@ title = 'Project Name',
                 
                 
                 <div className="icon">
-                              <a href={link } target="_blank" rel="noopener noreferrer">
+                              <a href={github} target="_blank" rel="noopener noreferrer">
                                   {icon}                                  
                               </a>Codes
                        </div>

@@ -10,11 +10,16 @@ const ContactSectionStyle = styled.div`
   padding: 10rem 0;
   max-width: 1000px;
   height: 770px;
+
+
   
   .contactSection__wrapper {
     display: flex;
-    height: 580px;
+    height: 560px;
 margin-left:-8rem;
+margin-bottom:5rem;
+margin-top:2rem;
+
     gap: 5rem;
     /* margin-bottom: 2rem; */
     width:900px;
@@ -26,26 +31,18 @@ margin-left:-8rem;
     background-color: var(--darkoffwhite);
   }
   .container{
+  
     margin-top: -4rem;
-/* margin-bottom:-100px; */
+
    
   }
-  /* .contactSection__wrapper::after {
-    position: absolute;
-    content: '';
-    width: 2px;
-    height: 50%;
-    background-color: var(--terc);
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%);
-  } */
+ 
   .left {
     width: 50%;
     max-width: 600px;
     margin-top: 34rem;
     margin-left: 5rem;
-    /* margin-top:100rem; */
+ 
   }
   .right {
     max-width: 500px;
@@ -53,7 +50,7 @@ margin-left:-8rem;
     border-radius: 12px;
     margin-top: 7rem;
     height:100%;
-    /* padding-left: 3rem; */
+  
   }
   @media only screen and (max-width: 768px) {
    overflow: hidden;

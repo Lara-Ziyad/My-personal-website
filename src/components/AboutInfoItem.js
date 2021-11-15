@@ -7,7 +7,6 @@ const AboutItemStyles = styled.div`
   align-items: center;
   justify-content: flex-start;
   position: relative;
-  /* gap: 5rem; */
   margin-top: 3rem;
   margin-left:30rem;
  
@@ -15,7 +14,7 @@ const AboutItemStyles = styled.div`
     margin-top: 1rem;
     font-size: 2.2rem;
     margin-left: 10rem;
-    color: #fff;
+    color: var(--offwhite);
     font-family: 'DosisSemiBold';
   }
   .items {
@@ -29,13 +28,13 @@ const AboutItemStyles = styled.div`
     width: 55vw;
   }
   .item {
-    background-color: var(--deep-dark);
+   
     padding: 0rem;
     border-radius: 8px;
     width: 200rem;
     text-align: left;
   }
-  ////////////////////////////////////////////////////////////////////
+ 
   @media only screen and (max-width: 768px) {
     flex-direction: column;
     align-items: flex-start;

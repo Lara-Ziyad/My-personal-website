@@ -17,17 +17,15 @@ const DocitemStyles = styled.div`
         
    border-radius: 50%;
       
-      height: 5rem;
-      width:5rem;
+      height: 7rem;
+      width:7rem;
       font-size: 3rem;
       
       cursor: pointer;
       border:0px;
-      /* margin-bottom: .1rem; */
+    
       word-wrap: break-word;
-      /* display: flex; */
-      /* align-items: center; */
-      /* justify-content: center; */
+   
    
     svg {
       width: 4rem; 

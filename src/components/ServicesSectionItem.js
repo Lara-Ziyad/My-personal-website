@@ -19,7 +19,7 @@ const ItemStyles = styled.div`
       width:18rem;
       font-size: 3rem;
       
-      /* cursor: none; */
+ 
       border:0px;
       margin-bottom: 2rem;
    

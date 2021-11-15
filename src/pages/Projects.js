@@ -9,6 +9,7 @@ import  Modal  from '../components/Modal';
 const ProjectStyle = styled.div`
  
   background-color: var(--purple);
+  z-index: -1 !important;
 
  padding: 10rem 0;
  .container
@@ -21,7 +22,6 @@ const ProjectStyle = styled.div`
     margin-top: 5rem;
   }
   .projects__searchBar {
-    position: relative;
 
   margin-top: 5rem;
     cursor: pointer;
@@ -29,6 +29,7 @@ const ProjectStyle = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.863);
   border-radius: 10px;
   color: rgb(255, 254, 253);
+  /* z-index: 1; */
  
 
   font-weight: 500;
@@ -37,36 +38,38 @@ const ProjectStyle = styled.div`
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   }
+  form{display : flex;
+  align-items: center;
+}
   .projects__searchBar input {
     background: none;
-    width: 100%;
+    width: 96%;
     font-size: 2rem;
     padding: 0.8rem;
     color: var(--orange);
     border-radius: 6px;
     outline: none;
     border: none;
+  
   }
   .projects__searchBar input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: var(--offwhite);
   opacity: .5; /* Firefox */
+
+ 
 }
   .projects__searchBar .searchIcon {
-    position: absolute;
+ 
     width: 2rem;
-    /* color: var(--offwhite); */
+   
     opacity: .7;
     right: 1rem;
+    z-index: 1;
   }
   .projects__searchBar .searchIcon path {
     color: var(--terc);
   }
-  /* @media only screen and (max-width: 768px) {
-    .projects__searchBar,
-    .projects__searchBar form,
-    .projects__searchBar input {
-      width: 100%;
-    } */
+
     @media only screen and (max-width: 768px) {
       .projects__searchBar,
     .projects__searchBar form,
@@ -114,7 +117,7 @@ export default function Projects() {
             desc={modalData.desc}
             tech={modalData.tech}
            img={modalData.img}
-            link={modalData.github}
+            github={modalData.github}
             modalImg={modalData.modalImg}
           />
           </div>
@@ -125,7 +128,7 @@ export default function Projects() {
             subheading="some of my recent works"
           />
           <div className="projects__searchBar">
-            <form>
+           <form>
               <input
                 type="text"
                 value={searchText}
@@ -145,6 +148,7 @@ export default function Projects() {
                 img={item.img}
                 link={item.link}
                 project={''}
+                github={item.github}
                 click ={()=> openModal (item.id)}
               />
             ))}
