@@ -26,7 +26,7 @@ const projects = [
  {
     id: uuidv4(),
     name: "Contact App",
-    desc: 'An application to save the contacts information, which includes the name, telephone number, email, and the type of the contacts. All data are editable, all contact endpoints are protected, and each registered user has their contacts. Brad Treversy directed the application functionality during the Udemy React course I completed, and I created my own style.',
+    desc: 'An application to save the contacts information, which includes the name, telephone number, email, and the type of the contacts. All data are editable, all contact endpoints are protected, and each registered user has their contacts. Brad Traversy directed the application functionality during the Udemy React course I completed, and I created my own style.',
     img: ContactCover,
     tech: "Full stack MERN contact application with React hooks, context for State Managment, CSS for design, build an API & JWT authentication. ",
     github: 'https://github.com/Lara-Ziyad/Contact-App',
