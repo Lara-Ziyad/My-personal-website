@@ -14,7 +14,7 @@ Install dependencies
 
 ```bash
 npm install
-npm client-install
+
 ```
 ## Available Scripts
 
